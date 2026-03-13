@@ -30,7 +30,6 @@ function secondsToTimeString(totalSeconds) {
 }
 
 // --- Assignment Functions ---
-
 // Function 1: getShiftDuration [cite: 380]
 function getShiftDuration(startTime, endTime) {
     const duration = timeStringToSeconds(endTime) - timeStringToSeconds(startTime);
